@@ -1,0 +1,15 @@
+<suite name="init" verbose="3">
+
+	<test name="android test" preserve-order="true">
+		<parameter name='browser' value='android' />
+		<classes>
+			<class name="tests.UserLoginTests">
+				<methods>
+					<include name='testLogin' />
+					<include name='testFailedLogin' />
+					<include name='testLogoutViaLink' />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>	

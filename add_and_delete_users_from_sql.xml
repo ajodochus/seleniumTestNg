@@ -1,0 +1,9 @@
+<suite name="init" verbose="3">
+	<test name="Login and Register on FF_LocalHost_W7" preserve-order="true">
+		<parameter name="browser" value="FF_LocalHost_W7" />
+		<classes>
+			<class name="tests.AddUsersFromSQL" />
+			<class name="tests.DeleteAllUsersWithoutAdmin" />
+		</classes>
+	</test>
+</suite>	

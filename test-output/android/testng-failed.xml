@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [android]">
+	<test name="android(failed)">
+		<classes>
+			<class name="android.ConnectAndroid">
+				<methods>
+					<include name="testLogin" />
+					<include name="before" />
+					<include name="setUpBeforeClass" />
+				</methods>
+			</class> <!-- android.ConnectAndroid -->
+		</classes>
+	</test> <!-- android(failed) -->
+</suite> <!-- Failed suite [android] -->

@@ -1,0 +1,11 @@
+<suite name="init" verbose="3">
+
+	<test name="Login and Register on FF_LocalHost_W7" preserve-order="true">
+		<parameter name="browser" value="FF_LocalHost_W7" />
+		<parameter name="pageEntryPoint" value="login" />
+		<classes>
+			<class name="tests.UserLoginTests">
+			</class>
+		</classes>
+	</test>
+</suite>	
